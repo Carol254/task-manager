@@ -26,4 +26,11 @@ document.getElementById('taskForm').addEventListener('submit',onSubmit);
 function newTask(){
     document.getElementById('task-form').style.display = '';
     document.getElementById('tasks').style.display = 'none';
+    
+    let form = document.getElementById('taskForm');
+
+
+    form.querySelectorAll('input, textarea').forEach(element => {
+        element.value = '';
+    });
 }
