@@ -6,15 +6,22 @@ function onSubmit(event){
     let formData = new FormData(document.getElementById('taskForm'));
     let taskDiv = document.createElement('div');
 
+
     for(let [name,value] of formData.entries()){
         let p = document.createElement('p');
         p.textContent = name + ': ' + value;
         taskDiv.appendChild(p);
+      
     }
 
  
     let tasksDiv = document.getElementById('tasks');
     tasksDiv.appendChild(taskDiv);
+    taskDiv.classList.add('card');
+    let btn = document.createElement('button');
+    btn.innerText = 'Delete Task';
+    btn.classList.add('delete-btn');
+    taskDiv.appendChild(btn);
 
     document.getElementById('task-form').style.display = 'none';
     tasksDiv.style.display = '';
