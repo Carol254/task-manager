@@ -15,4 +15,5 @@ input,textarea{
 }
 button{
     padding: 10px;
+    cursor: pointer;
 }
