@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input,textarea{
+    width:100%;
+    padding: 8px 1px;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+}
