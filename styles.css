@@ -36,6 +36,7 @@ input,textarea:focus{
     color:black !important;
     display: flex;
     flex-wrap: wrap;
+
 }
 .delete-btn{
     background-color: black !important;

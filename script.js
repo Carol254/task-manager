@@ -24,6 +24,15 @@ function onSubmit(event){
     btn.classList.add('delete-btn');
     taskDiv.appendChild(btn);
 
+
+    btn.addEventListener('click',deleteItem);
+
+    function deleteItem(){
+        let tasksDiv = document.getElementById('tasks');
+    
+        tasksDiv.removeChild(taskDiv);
+    }
+
     document.getElementById('task-form').style.display = 'none';
     document.getElementById('main-tasks').style.display = '';
     // tasksDiv.style.display = '';
@@ -43,3 +52,4 @@ function newTask(){
         element.value = '';
     });
 }
+
