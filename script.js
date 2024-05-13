@@ -16,6 +16,7 @@ function onSubmit(event){
 
  
     let tasksDiv = document.getElementById('tasks');
+    
     tasksDiv.appendChild(taskDiv);
     taskDiv.classList.add('card');
     let btn = document.createElement('button');
@@ -24,7 +25,8 @@ function onSubmit(event){
     taskDiv.appendChild(btn);
 
     document.getElementById('task-form').style.display = 'none';
-    tasksDiv.style.display = '';
+    document.getElementById('main-tasks').style.display = '';
+    // tasksDiv.style.display = '';
 
 }
 
@@ -32,7 +34,7 @@ document.getElementById('taskForm').addEventListener('submit',onSubmit);
 
 function newTask(){
     document.getElementById('task-form').style.display = '';
-    document.getElementById('tasks').style.display = 'none';
+    document.getElementById('main-tasks').style.display = 'none';
     
     let form = document.getElementById('taskForm');
 
