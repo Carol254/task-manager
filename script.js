@@ -10,8 +10,7 @@ function onSubmit(event){
     for(let [name,value] of formData.entries()){
         let p = document.createElement('p');
         p.textContent = name + ': ' + value;
-        taskDiv.appendChild(p);
-      
+        taskDiv.appendChild(p); 
     }
 
  
@@ -35,7 +34,6 @@ function onSubmit(event){
 
     document.getElementById('task-form').style.display = 'none';
     document.getElementById('main-tasks').style.display = '';
-    // tasksDiv.style.display = '';
 
 }
 
@@ -46,7 +44,6 @@ function newTask(){
     document.getElementById('main-tasks').style.display = 'none';
     
     let form = document.getElementById('taskForm');
-
 
     form.querySelectorAll('input, textarea').forEach(element => {
         element.value = '';
