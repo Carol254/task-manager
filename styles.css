@@ -1,7 +1,12 @@
+
+/* b2e914 */
 body{
-    background-color: black;
-    color: #fff;
+    background-color: black !important;
+    color: #fff !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home>nav>{
+    border-bottom: 1px solid #fff !important;
 }
 .main{
     display: flex;
