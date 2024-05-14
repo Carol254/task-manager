@@ -21,6 +21,7 @@ function onSubmit(event){
     let btn = document.createElement('button');
     btn.innerText = 'Delete Task';
     btn.classList.add('delete-btn');
+    btn.classList.add('btn-primary');
     taskDiv.appendChild(btn);
 
 
