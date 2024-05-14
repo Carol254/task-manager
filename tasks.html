@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h3 class="text-center mt-3">TASK MANAGER</h3>
+            <div id="task-form">
+                <form action="" id="taskForm">
+                    <div class="mb-3">
+                        <input type="text" placeholder="Task name" class="form-control" name="taskName">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Subject" class="form-control"  name="subject">
+                    </div>
+                    <div class="mb-3">
+                        <input type="date" name="taskDate" class="form-control" >
+                    </div>
+                    <div class="mb-3">
+                        <textarea placeholder="Describe the task" class="form-control"  name="description"></textarea>
+                    </div>
+               
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            
+    
+            <div id="main-tasks" style="display: none;">
+                <button onclick="newTask()" class="add-task">Add New Task </button>
+                <div id="tasks">
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
