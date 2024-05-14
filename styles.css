@@ -57,3 +57,26 @@ input,textarea:focus{
     justify-content: center;
     align-items: center;
 }
+.btn-primary{
+    border-radius: 20px !important;
+    background-color:#b2e914 !important;
+    color: #000 !important;
+    border: none !important;
+    text-decoration: none;
+}
+.fs-10{
+    font-size: 70px;
+}
+
+.more{
+    width: 100%;
+    background-color: #b2e914;
+    border-radius: 20px;
+}
+
+.info-card{
+    background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px;
+}
