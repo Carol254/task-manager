@@ -10,7 +10,36 @@
 <body>
     <div class="main">
         <div class="container">
-            <h3 class="text-center mt-4">TASK MANAGER</h3>
+            <nav class="navbar navbar-expand-lg border-bottom border-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">CraftedTasks</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav m-auto">
+                      <li class="nav-item">
+                        <a class="nav-link  text-white" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link  active text-white" href="tasks.html">Tasks</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <a class="ml-auto btn btn-primary" href="login.html">Login 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>
+                  </a>
+                </div>
+            </nav>
+            <h4 class="text-center mt-3" style="color: #b2e914; text-decoration:underline;">Task Manager</h4>
             <div id="task-form">
                 <form action="" id="taskForm">
                     <div class="mb-3">
@@ -40,5 +69,6 @@
       
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
