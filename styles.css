@@ -89,4 +89,12 @@ input,textarea:focus{
     background-size: 100%;
     background-color: #b2e914 !important;
 }
+.about-main{
+    background-color: #b2e914;
+    height: 300px !important;
+    width: 100% !important;
+    border-radius: 20px;
+    padding: 5px;
+    color: #000 !important;
+}
 
