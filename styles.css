@@ -101,5 +101,11 @@ input,textarea:focus{
     width: 48px;
     height: 48px;
     object-fit: contain;
-   
+}
+.abt-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
