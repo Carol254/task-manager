@@ -82,12 +82,12 @@ input,textarea:focus{
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
-    vertical-align: middle;
-    background-image: var(--bs-navbar-toggler-icon-bg);
+    /* vertical-align: end !important; */
+    background-image: url(assets/menu-bar.svg)!important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-color: #b2e914 !important;
+    /* background-color: #b2e914 !important; */
 }
 .about-main{
     background-color: #b2e914;
