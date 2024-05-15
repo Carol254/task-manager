@@ -91,10 +91,15 @@ input,textarea:focus{
 }
 .about-main{
     background-color: #b2e914;
-    height: 300px !important;
+    /* height: 300px !important; */
     width: 100% !important;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     color: #000 !important;
 }
-
+.logo-img{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+   
+}
