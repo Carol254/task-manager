@@ -60,11 +60,11 @@ function updateTasksUI() {
 
 document.getElementById('taskForm').addEventListener('submit', onSubmit);
 
-
 function newTask() {
     document.getElementById('task-form').style.display = '';
     document.getElementById('main-tasks').style.display = 'none';
 }
 
-// Initial UI update
+
 updateTasksUI();
+
